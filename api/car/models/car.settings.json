@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "name": "car"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "brand": {
+      "type": "string"
+    },
+    "carID": {
+      "type": "integer"
+    },
+    "phone_number": {
+      "type": "string"
+    }
+  }
+}
